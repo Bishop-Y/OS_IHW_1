@@ -45,7 +45,7 @@ void find_palindromes(char *str) {
 
 int main(int argc, char *argv[]) {
     const int buffer = 5000;
-    char string[buffer] = {0};
+    char string[buffer];
     if (argc != 3) {
         printf("Run the program with 2 arguments\n \"./program.exe input.txt output.txt\"\n");
         return 0;
