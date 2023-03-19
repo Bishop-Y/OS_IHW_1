@@ -51,7 +51,7 @@ const char *second_channel = "pipe2.fifo";
 
 int main(int argc, char *argv[]) {
     int fd_12, fd_23, size;
-    char string[buffer] = {0};
+    char string[buffer];
 
     mknod(first_channel, S_IFIFO | 0666, 0);
     mknod(second_channel, S_IFIFO | 0666, 0);
