@@ -1,6 +1,6 @@
 # OS_IHW_1
 ## Епифанов Артём Михайлович, БПИ 217, вариант 29.
-## Работы выполнена на 9 баллов.
+## Работа выполнена на 9 баллов.
 ## Условие задачи:
 * Разработать программу, которая ищет в ASCII-строке слова — палиндромы и формирует из них новую строку, в которой слова разделяются пробелами. Слова состоят из букв. Все остальные
 символы являются разделителями слов.
@@ -14,10 +14,10 @@
 > [4_grade.c](https://github.com/Bishop-Y/OS_IHW_1/blob/main/4_grade/4_grade.c)
 ### 2. Запуск программы:
 Компиляция:
->  gcc -o 4_grade.exe 4_grade.c <br>
+> * gcc -o 4_grade.exe 4_grade.c <br>
 
 Запуск:
-> ./4_grade.exe input1.txt output1.txt <br>
+> * ./4_grade.exe input1.txt output1.txt <br>
 
 ### 3. Схема:
 > * Первый процесс (родитель второго): читает текстовые данные из заданного файла и через неименованный канал 1
@@ -38,10 +38,10 @@
 
 ### 2. Запуск программы:
 Компиляция:
->  gcc -o 5_grade.exe 5_grade.c <br>
+> * gcc -o 5_grade.exe 5_grade.c <br>
 
 Запуск:
-> ./5_grade.exe input1.txt output1.txt <br>
+> * ./5_grade.exe input1.txt output1.txt <br>
 
 ### 3. Схема:
 
@@ -54,14 +54,14 @@
 
 ### 1. Приведено решение задачи на C:
 
-> [6_grade.c](https://github.com/Bishop-Y/OS_IHW_1/tree/main/6_grade/6_grade.c)
+> * [6_grade.c](https://github.com/Bishop-Y/OS_IHW_1/tree/main/6_grade/6_grade.c)
 
 ### 2. Запуск программы:
 Компиляция:
->  gcc -o 6_grade.exe 6_grade.c <br>
+> * gcc -o 6_grade.exe 6_grade.c <br>
 
 Запуск:
-> ./6_grade.exe input1.txt output1.txt <br>
+> * ./6_grade.exe input1.txt output1.txt <br>
 
 ### 3. Схема:
 
@@ -74,14 +74,14 @@
 
 ### 1. Приведено решение задачи на C:
 
-> [7_grade.c](https://github.com/Bishop-Y/OS_IHW_1/tree/main/7_grade/7_grade.c)
+> * [7_grade.c](https://github.com/Bishop-Y/OS_IHW_1/tree/main/7_grade/7_grade.c)
 
 ### 2. Запуск программы:
 Компиляция:
->  gcc -o 7_grade.exe 7_grade.c <br>
+> * gcc -o 7_grade.exe 7_grade.c <br>
 
 Запуск:
-> ./7_grade.exe input1.txt output1.txt <br>
+> * ./7_grade.exe input1.txt output1.txt <br>
 
 ### 3. Схема решаемой задачи:
 
@@ -94,17 +94,17 @@
 
 ### 1. Приведено решение задачи на C:
 
-> [8_grade_main.c](https://github.com/Bishop-Y/OS_IHW_1/blob/main/8_grade/8_grade_main.c) <br>
->  [8_grade_add.c](https://github.com/Bishop-Y/OS_IHW_1/blob/main/8_grade/8_grade_add.c)
+> * [8_grade_main.c](https://github.com/Bishop-Y/OS_IHW_1/blob/main/8_grade/8_grade_main.c) <br>
+> * [8_grade_add.c](https://github.com/Bishop-Y/OS_IHW_1/blob/main/8_grade/8_grade_add.c)
 
 ### 2. Запуск программы:
 Компиляция:
->  gcc -o 8_grade_main.exe 8_grade_main.c <br>
-> gcc -o 8_grade_add.exe 8_grade_add.c <br>
+> * gcc -o 8_grade_main.exe 8_grade_main.c <br>
+> * gcc -o 8_grade_add.exe 8_grade_add.c <br>
 
 Запуск (в любом порядке):
-> ./8_grade_main.exe input1.txt output1.txt <br>
-> ./8_grade_add.exe <br>
+> * ./8_grade_main.exe input1.txt output1.txt <br>
+> * ./8_grade_add.exe <br>
 
 ### 3. Схема:
 
@@ -115,17 +115,17 @@
 
 ### 1. Приведено решение задачи на C:
 
-> [9_grade_main.c](https://github.com/Bishop-Y/OS_IHW_1/blob/main/9_grade/9_grade_main.c) <br>
->  [9_grade_add.c](https://github.com/Bishop-Y/OS_IHW_1/blob/main/9_grade/9_grade_add.c)
+> * [9_grade_main.c](https://github.com/Bishop-Y/OS_IHW_1/blob/main/9_grade/9_grade_main.c) <br>
+> * [9_grade_add.c](https://github.com/Bishop-Y/OS_IHW_1/blob/main/9_grade/9_grade_add.c)
 
 ### 2. Запуск программы:
 Компиляция:
->  gcc -o 9_grade_main.exe 9_grade_main.c <br>
-> gcc -o 9_grade_add.exe 9_grade_add.c <br>
+> * gcc -o 9_grade_main.exe 9_grade_main.c <br>
+> * gcc -o 9_grade_add.exe 9_grade_add.c <br>
 
 Запуск (в любом порядке):
-> ./9_grade_main.exe input1.txt output1.txt <br>
-> ./9_grade_add.exe <br>
+> * ./9_grade_main.exe input1.txt output1.txt <br>
+> * ./9_grade_add.exe <br>
 
 ### 3. Схема :
 
