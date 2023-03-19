@@ -52,7 +52,7 @@ int main(int argc, char *argv[]) {
     }
 
     int fd_12, fd_23, result, size;
-    char string[buffer] = {0};
+    char string[buffer];
 
     mknod(first_channel, S_IFIFO | 0666, 0);
     mknod(second_channel, S_IFIFO | 0666, 0);
